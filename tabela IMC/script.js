@@ -1,6 +1,8 @@
 let linhas = document.querySelectorAll("tbody tr");
 
-linhas.forEach(function(linha){
+for(let i = 0; i < linhas.length; i++){
+    let linha = linhas[i];
+    
     let altura = Number(linha.children[2].textContent);
     let peso = Number(linha.children[3].textContent);
 
