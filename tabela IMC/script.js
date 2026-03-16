@@ -32,4 +32,4 @@ for(let i = 0; i < linhas.length; i++){
     linha.children[4].textContent = imc.toFixed(1);
     linha.children[5].textContent = classificacao;
 
-});
+};
